@@ -1,0 +1,145 @@
+@media (max-width: 1156px) {
+  .blog__1--container h1 {
+    font-size: 1em;
+  }
+}
+@media (max-width: 1100px) {
+  .header {
+    grid-column: 1/-1;
+    grid-row: 1/4;
+  }
+  .blog__1 {
+    grid-column: 2/11;
+    grid-row: 4/5;
+  }
+  .blog__2 {
+    grid-column: 2/11;
+    grid-row: 5/6;
+  }
+  .blog__3 {
+    grid-column: 2/11;
+    grid-row: 6/7;
+  }
+  .side__box--1 {
+    grid-column: 2/6;
+    grid-row: 7/8;
+  }
+  .side__box--2 {
+    grid-column: 2/11;
+    grid-row: 9/10;
+    padding-bottom: 2em;
+  }
+  .side__box--3 {
+    grid-column: 6/11;
+    grid-row: 7/8;
+  }
+  .side__box--4 {
+    grid-column: 2/11;
+    grid-row: 8/9;
+  }
+  .footer {
+    grid-column: 1/-1;
+    grid-row: 10/11;
+  }
+}
+@media (max-width: 870px) {
+  .blog__container {
+    grid-column: 1/-1;
+  }
+  .blog__container-2 {
+    grid-column: 1/-1;
+  }
+}
+@media (max-width: 700px) {
+  .container {
+    overflow-x: hidden;
+  }
+  .side__box--1 {
+    grid-column: 2/11;
+    grid-row: 7/8;
+  }
+  .side__box--2 {
+    grid-column: 2/11;
+    grid-row: 8/9;
+  }
+  .side__box--3 {
+    grid-column: 2/11;
+    grid-row: 9/10;
+  }
+  .side__box--4 {
+    grid-column: 2/11;
+    grid-row: 10/11;
+  }
+  .side__box--1-content-name-post {
+    margin-top: 0.5em;
+  }
+  .footer {
+    grid-column: 1/-1;
+    grid-row: 11/12;
+  }
+  .poster {
+    display: flex;
+    flex-direction: column;
+  }
+  .poster h2 {
+    margin-bottom: -1.5em;
+  }
+  .country-visited {
+    margin-left: 0.3em;
+  }
+  .country {
+    margin-left: -0.8em;
+  }
+  .blog-par {
+    margin-top: -1em;
+  }
+}
+
+@media (max-width: 642px) {
+  .header__title {
+    font-size: 3em;
+    top: 30%;
+  }
+  .blog__container-details {
+    width: 100%;
+  }
+}
+@media (max-width: 440px) {
+  .blog__1--container h2 {
+    font-size: 0.6em;
+    padding-left: 1.2em;
+  }
+
+  .paragraph {
+    font-size: 0.4em;
+  }
+
+  .blog__1--container--image {
+    height: 200px;
+    width: 120vw;
+  }
+  .header__title {
+    font-size: 2em;
+  }
+  .navigation__button {
+    top: 0.3em;
+    right: 0.3em;
+  }
+  .navigation__background {
+    top: 1.3rem;
+    right: 1.3rem;
+  }
+}
+@media (max-width: 414px) {
+  .poster-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .aboume__paragraph {
+    font-size: 1.6em;
+  }
+  .side__box--3 {
+    padding-bottom: 2em;
+  }
+}

@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+}
+.body-container {
+  /* display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  min-height: 100%; */
+  display: grid;
+  grid-template-rows: 65vh repeat(2, auto);
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.5em;
+}
+.blog__header {
+  grid-column: 1/-1;
+  grid-row: 1/5;
+  background-image: linear-gradient(
+      rgba(16, 29, 44, 0.8),
+      rgba(16, 29, 44, 0.8)
+    ),
+    url("../img/dino-reichmuth-YIaRp5Pn4bM-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.blog__container {
+  background: var(--color-light-1);
+}
+.blog__container-2 {
+  background: var(--color-light-1);
+}
+.blog__container-details {
+  width: 90%;
+  margin: 0 auto;
+}
+.blog__container--image {
+  width: 100%;
+  height: 30em;
+}
+.blog__container-details h2 {
+  font-size: 2.3em;
+  padding-left: 0;
+}
+.blog__container--paragraph {
+  font-size: 1.7em;
+  padding-left: 0.5em;
+}
+.blog__container-details .poster .poster-info {
+  font-size: 1.3em;
+  margin-bottom: 1.5em;
+}

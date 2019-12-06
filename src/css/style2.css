@@ -142,10 +142,6 @@ textarea:focus {
 }
 /* Social media Style */
 
-.side__box--2-content h6 {
-  color: var(--color-secondary);
-  text-transform: uppercase;
-}
 .social-media--list {
   color: var(--color-grey-light-1);
   list-style: none;

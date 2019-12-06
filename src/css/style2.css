@@ -16,6 +16,9 @@
   color: var(--color-grey-light-1);
   background-color: var(--color-primary);
 }
+.aboume__paragraph {
+  text-align: justify;
+}
 .btn__aboutme {
   border: 1px solid var(--color-primary);
   color: var(--color-primary);
@@ -48,6 +51,7 @@
     var(--color-grey-light-2)
   );
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
   animation: chnage 3s infinite;
   -webkit-animation: change 3s infinite;

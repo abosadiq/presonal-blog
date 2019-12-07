@@ -1,11 +1,4 @@
-html {
-  height: 100%;
-}
 .body-container {
-  /* display: flex;
-  flex-direction: column;
-  margin-top: auto;
-  min-height: 100%; */
   display: grid;
   grid-template-rows: 65vh repeat(2, auto);
   grid-template-columns: repeat(2, 1fr);

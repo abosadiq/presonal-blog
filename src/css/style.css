@@ -1,8 +1,9 @@
 .header,
 .blog__1-header {
   background-image: linear-gradient(
+      to right,
       rgba(16, 29, 44, 0.8),
-      rgba(16, 29, 44, 0.8)
+      rgba(11, 58, 99, 0.8)
     ),
     url("../img/dino-reichmuth-YIaRp5Pn4bM-unsplash.jpg");
   grid-column: 1/-1;
@@ -168,4 +169,9 @@ h2 {
 }
 .blog__1--container--image {
   width: 80%;
+}
+
+.post-popular {
+  font-weight: 700;
+  color: darkslategrey;
 }

@@ -33,7 +33,7 @@
   height: 100vh;
   position: fixed;
   top: 0;
-  left: 0;
+  left: -40%;
   z-index: 1500;
   opacity: 0;
   width: 0;
@@ -42,7 +42,7 @@
 .navigation__list {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 90%;
   transform: translate(-50%, -50%);
   list-style: none;
   text-align: center;
